@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="MechSys_3AxDeltaA" Type="mechanicalsystem">
+    <Selector ID="Type" Value="Delta">
+      <Selector ID="Subtype" Value="3AxesDeltaA">
+        <Selector ID="Description" Value="Standard">
+          <Group ID="Dimensions">
+            <Group ID="BasePlatform">
+              <Group ID="Center">
+                <Property ID="X" Value="0.0" />
+                <Property ID="Y" Value="0.0" />
+                <Property ID="Z" Value="0.0" />
+              </Group>
+              <Group ID="Arm1LinkPoint">
+                <Property ID="Angle" Value="0.0" />
+                <Property ID="Radius" Value="250.0" />
+                <Property ID="Z" Value="0.0" />
+              </Group>
+              <Group ID="Arm2LinkPoint">
+                <Property ID="Angle" Value="120.0" />
+                <Property ID="Radius" Value="250.0" />
+                <Property ID="Z" Value="0.0" />
+              </Group>
+              <Group ID="Arm3LinkPoint">
+                <Property ID="Angle" Value="240.0" />
+                <Property ID="Radius" Value="250.0" />
+                <Property ID="Z" Value="0.0" />
+              </Group>
+            </Group>
+            <Group ID="Arms">
+              <Group ID="Arm1">
+                <Property ID="UpperArmLength" Value="600.0" />
+                <Property ID="LowerArmLength" Value="900.0" />
+              </Group>
+              <Group ID="Arm2">
+                <Property ID="UpperArmLength" Value="600.0" />
+                <Property ID="LowerArmLength" Value="900.0" />
+              </Group>
+              <Group ID="Arm3">
+                <Property ID="UpperArmLength" Value="600.0" />
+                <Property ID="LowerArmLength" Value="900.0" />
+              </Group>
+            </Group>
+            <Group ID="EndEffectorPlatform">
+              <Group ID="Arm1LinkPoint">
+                <Property ID="Radius" Value="50.0" />
+                <Property ID="Z" Value="0.0" />
+              </Group>
+              <Group ID="Arm2LinkPoint">
+                <Property ID="Radius" Value="50.0" />
+                <Property ID="Z" Value="0.0" />
+              </Group>
+              <Group ID="Arm3LinkPoint">
+                <Property ID="Radius" Value="50.0" />
+                <Property ID="Z" Value="0.0" />
+              </Group>
+              <Group ID="TranslationToFlange">
+                <Property ID="X" Value="0.0" />
+                <Property ID="Y" Value="0.0" />
+                <Property ID="Z" Value="-150" />
+              </Group>
+            </Group>
+          </Group>
+          <Group ID="Offsets">
+            <Property ID="JointAxis[1]" Value="0.0" />
+            <Property ID="JointAxis[2]" Value="0.0" />
+            <Property ID="JointAxis[3]" Value="0.0" />
+          </Group>
+          <Group ID="CountDirections">
+            <Property ID="JointAxis[1]" Value="Standard" />
+            <Property ID="JointAxis[2]" Value="Standard" />
+            <Property ID="JointAxis[3]" Value="Standard" />
+          </Group>
+        </Selector>
+        <Selector ID="CoordinatesNames" Value="Default">
+          <Property ID="XCoordinateName" Value="X" />
+          <Property ID="YCoordinateName" Value="Y" />
+          <Property ID="ZCoordinateName" Value="Z" />
+        </Selector>
+        <Selector ID="WireFrameModel" Value="Standard">
+          <Selector ID="UpperArm1" Value="ConnectionLine">
+            <Property ID="Distance" Value="0.0" />
+          </Selector>
+          <Selector ID="LowerArm1" Value="ConnectionLine">
+            <Property ID="Distance" Value="0.0" />
+          </Selector>
+          <Selector ID="UpperArm2" Value="ConnectionLine">
+            <Property ID="Distance" Value="0.0" />
+          </Selector>
+          <Selector ID="LowerArm2" Value="ConnectionLine">
+            <Property ID="Distance" Value="0.0" />
+          </Selector>
+          <Selector ID="UpperArm3" Value="ConnectionLine">
+            <Property ID="Distance" Value="0.0" />
+          </Selector>
+          <Selector ID="LowerArm3" Value="ConnectionLine">
+            <Property ID="Distance" Value="0.0" />
+          </Selector>
+          <Selector ID="EndEffectorPlatformToFlange" Value="ConnectionLine">
+            <Property ID="Distance" Value="0.0" />
+          </Selector>
+          <Selector ID="FlangeToTcp" Value="ConnectionLine">
+            <Property ID="Distance" Value="0.0" />
+          </Selector>
+        </Selector>
+        <Selector ID="DynamicModel" Value="DynParTable">
+          <Property ID="TableRef" />
+        </Selector>
+        <Group ID="JointAxesPositionLimits">
+          <Selector ID="JointAxis[1]" Value="UseAxisLimits" />
+          <Selector ID="JointAxis[2]" Value="UseAxisLimits" />
+          <Selector ID="JointAxis[3]" Value="UseAxisLimits" />
+        </Group>
+      </Selector>
+    </Selector>
+  </Element>
+</Configuration>

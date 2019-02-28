@@ -6,5 +6,6 @@ control three delta robots with B&R Mapp Robotic via OPC UA
 
 ## usage
 
-![Video](https://github.com/hilch/brwatch/blob/master/how_to_use.gif)
+![Video](https://github.com/hilch/control-three-delta-robots/blob/master/media/usage.gif)
+
 

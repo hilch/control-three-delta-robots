@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.5.2.102?>
+<Package SubType="mMoPredefinedCfgPackage" PackageType="mMoPredefinedCfgPackage" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File">Config_1.axesgroup</Object>
+    <Object Type="File">Config_2.axis</Object>
+    <Object Type="File">Config_3.mechanicalsystem</Object>
+    <Object Type="File">Config_4.axesgroupfeature</Object>
+  </Objects>
+</Package>

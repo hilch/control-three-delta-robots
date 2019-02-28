@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="g3AxDeltaA" Type="axesgroup">
+    <Selector ID="Type" Value="PathGenAxesGroup">
+      <Property ID="ProcessingTaskClass" Value="1" />
+      <Property ID="License" Value="1" />
+      <Group ID="PhysicalAxes">
+        <Group ID="JointAxes">
+          <Group ID="JointAxis[1]">
+            <Property ID="Name" Value="Q1" />
+            <Property ID="AxisRef" Value="gAxisQ1A" />
+          </Group>
+          <Group ID="JointAxis[2]">
+            <Property ID="Name" Value="Q2" />
+            <Property ID="AxisRef" Value="gAxisQ2A" />
+          </Group>
+          <Group ID="JointAxis[3]">
+            <Property ID="Name" Value="Q3" />
+            <Property ID="AxisRef" Value="gAxisQ3A" />
+          </Group>
+        </Group>
+      </Group>
+      <Group ID="MechanicalSystem">
+        <Property ID="MechSysRef" Value="MechSys_3AxDeltaA" />
+      </Group>
+      <Group ID="BasicSettings">
+        <Selector ID="ModalDataBehaviour" Value="ResetToDefault" />
+        <Group ID="GeometryPlanning">
+          <Property ID="MaxCornerDeviation" Value="0.0" />
+          <Property ID="MaxTangentialTransitionDeviation" Value="0.0" />
+          <Property ID="MaxRadiusDeviation" Value="0.001" />
+          <Property ID="WorkingPlane" Value="XY" />
+        </Group>
+        <Selector ID="TrajectoryPlanning" Value="Basic">
+          <Selector ID="LimitCheckResolution" Value="UserDefinedTime">
+            <Property ID="Time" Value="0.01" />
+          </Selector>
+          <Selector ID="BufferTime" Value="UserDefinedTime">
+            <Property ID="Time" Value="0.1" />
+          </Selector>
+        </Selector>
+      </Group>
+      <Group ID="AxesGroupFeatures">
+        <Property ID="FeatureRef[1]" Value="Feature_Programs" />
+        <Property ID="FeatureRef[2]" Value="Feature_Jogging" />
+      </Group>
+    </Selector>
+    <Selector ID="Alarms" Value="None" />
+  </Element>
+</Configuration>

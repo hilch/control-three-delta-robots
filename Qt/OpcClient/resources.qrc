@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/AxisError.PNG</file>
+        <file>images/AxisOK.PNG</file>
+        <file>images/ControllerOff_32x32.png</file>
+        <file>images/ControllerOn_32x32.png</file>
+        <file>images/HomingNotOK.PNG</file>
+        <file>images/HomingOK.PNG</file>
+        <file>images/motion.png</file>
+        <file>images/stop.png</file>
+    </qresource>
+</RCC>

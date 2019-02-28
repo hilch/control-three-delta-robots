@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="ObjectHierarchy" Type="objecthierarchy">
+    <Group ID="MeasurementUnits">
+      <Property ID="LengthMeasurementUnit" Value="5066068" />
+      <Property ID="AngleMeasurementUnit" Value="17476" />
+    </Group>
+    <Selector ID="RotationDescription" Value="Cardan" />
+  </Element>
+</Configuration>

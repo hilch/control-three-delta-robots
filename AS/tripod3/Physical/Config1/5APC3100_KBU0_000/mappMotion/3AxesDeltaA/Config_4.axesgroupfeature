@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="Feature_Programs" Type="axesgroupfeature">
+    <Selector ID="Type" Value="Program">
+      <Selector ID="ModalDataBehaviour" Value="UseAxesGroupSettings" />
+      <Group ID="InitialSettings">
+        <Selector ID="InterpolationTypes" Value="LinearRapid" />
+        <Selector ID="PositionCoordinates" Value="Absolute" />
+        <Selector ID="CircleCoordinates" Value="Relative" />
+        <Selector ID="ContourConnection" Value="Inactive" />
+        <Selector ID="ProgrammingUnits" Value="UseAxesGroupSettings" />
+        <Group ID="Feedrates">
+          <Selector ID="FeedCharacteristic" Value="StandardCharacteristic" />
+          <Selector ID="FeedType" Value="Feedrate" />
+          <Property ID="FeedrateValue" Value="0.0" />
+          <Property ID="InverseFeedrateValue" Value="0.0" />
+          <Property ID="FeedratePerRevValue" Value="0.0" />
+        </Group>
+      </Group>
+      <Selector ID="DefaultLanguage" Value="BRGCode" />
+      <Selector ID="Location" Value="Default">
+        <Property ID="FileDevice" Value="CNC_PrgDir" />
+      </Selector>
+    </Selector>
+  </Element>
+  <Element ID="Feature_Jogging" Type="axesgroupfeature">
+    <Selector ID="Type" Value="Jogging" />
+  </Element>
+</Configuration>

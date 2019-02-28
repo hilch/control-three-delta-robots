@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+/AS/tripod3/Temp
+/AS/tripod3/Binaries
+
+/AS/tripod3/Diagnosis
+/AS/tripod3/*.set
