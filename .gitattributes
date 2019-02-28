@@ -1,0 +1,6 @@
+Qt/OpcClient/*.cpp linguist-language=C++
+Qt/OpcClient/*.c linguist-language=C++
+Qt/OpcClient/*.h linguist-language=C++
+AS/tripod3/*.c linguist-language=C++
+AS/tripod3/*.h linguist-language=C++
+lib/* linguist-vendored
