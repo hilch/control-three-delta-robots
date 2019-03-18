@@ -19,9 +19,10 @@ void _CYCLIC ProgramCyclic(void)
 		if( robot[r].delta.IsHomed )
 			robot[r].delta.Home = false;
 
-		if( robot[r].delta.MoveDone )
-			robot[r].delta.MoveProgram = false;
-
+	if( robot[r].delta.MoveDone || robot[r].delta.Stopped || robot[r].delta.Error )
+	{
+		robot[r].delta.MoveProgram = false;
+		robot[r].delta.Stop = false;
 	}
 
 }
